@@ -1,26 +1,40 @@
 body{
-    background: rgb(162, 240, 240);
-    max-width: 600px;
-    margin: 0 auto;
+    background-color: rgb(162, 240, 240);
     
+}
+
+div#interface{
+    width: 1000px;
+    background-color: #ffffffd0;
+    /* Ajustando as margens com o (margin) pra colar na parte superior do navegador
+    devemos colocar o primerio valor como negativo*/
+    margin: -30px auto 0px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 15px 15px 15px 15px;
 
 }
+
 h1{
     font:bold 30pt arial;
     text-align: center;
 }
 
-section{
+
+section#num01{
     background:white;
+    position:relative;
     border-radius: 10px;
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-    margin: auto;
+    margin: 40px auto 40px auto;
+    width: 70%;
+    padding: 15px 15px 15px 15px;
+    margin: 50px auto 40px auto;
     box-shadow: 4px 4px 8px rgb(0,0,0,0.514);
+    font:normal 10pt arial;
     
 }
 
 footer{
+    position: relative;
     font:normal 10pt arial;
     text-align: center;
 }
