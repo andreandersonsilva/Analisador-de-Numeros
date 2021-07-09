@@ -1,0 +1,26 @@
+body{
+    background: rgb(162, 240, 240);
+    max-width: 600px;
+    margin: 0 auto;
+    
+
+}
+h1{
+    font:bold 30pt arial;
+    text-align: center;
+}
+
+section{
+    background:white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgb(0,0,0,0.514);
+    
+}
+
+footer{
+    font:normal 10pt arial;
+    text-align: center;
+}
