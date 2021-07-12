@@ -33,6 +33,10 @@ section#num01{
     
 }
 
+select#flista{
+    width: 150px;
+}
+
 footer{
     position: relative;
     font:normal 10pt arial;
