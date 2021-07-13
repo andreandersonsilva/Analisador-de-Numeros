@@ -20,7 +20,7 @@ function isNumero(n) {
 }
 
 //Nesta function eu informo que ela vai receber dois valores, um número (n) e uma lista (l)
-function inLista(n, l){
+function !inLista(n, l){
     //Se na lista o valor de n for diferente de -1 (-1 indica que o valor não foi encontrado na lista)
     if(l.indexOf(Number(n)) != -1){
         return true
